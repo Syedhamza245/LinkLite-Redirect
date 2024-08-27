@@ -6,7 +6,7 @@ const {connectToMongoDB} = require('./connection')
 const URL = require('./models/url.models')
 
 // MongoDB Connection
-connectToMongoDB('mongodb+srv://syedhamza245:s_hamza*1to5@cluster0.qmjzugo.mongodb.net/MVC?retryWrites=true&w=majority&appName=Cluster0')
+connectToMongoDB('Your-URL')
 
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())  
